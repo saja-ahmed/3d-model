@@ -1,0 +1,48 @@
+@media only screen and (max-width: 800px) {
+    header {
+        padding: 17px;
+    }
+    header .logo {
+    }
+    header .logo img {
+        width: 60px;
+        height: 60px;
+    }
+    header ul {
+        width: 70%;
+        padding: 10px;
+    }
+    header ul li a {
+        font-size: 11px;
+    }
+    #content {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        top: 50px;
+        text-align: center;
+    }
+    #content h2 {
+        font-size: 30px;
+    }
+    #content button  {
+        margin: 0 auto;
+        padding: 9px;
+    }
+    #aSide {
+        height: 000px;
+        width: 600px;
+        position: relative;
+        margin: 0 auto;
+        margin-left: -100px;
+        background-color: firebrick;
+    }
+    #aSide model-viewer {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        margin: 0 auto;
+        border: none;
+        z-index: 9999;
+    }
+}
